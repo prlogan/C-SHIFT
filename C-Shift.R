@@ -48,7 +48,7 @@ grad.objFunct_F <- function(alpha, Cov_pert, geneNo){
 }
 
 #################### Calculate OUTPUT matrices: Cov_new #################
-CShift_fn <- function(Cov_obs, use_trace = F){
+CShift_fn <- function(Cov_obs, use_trace = T){
   geneNo <- dim(Cov_obs)[1] #extract number of genes
   
   # Make matrix pos def
