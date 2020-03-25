@@ -1,3 +1,4 @@
+if (!requireNamespace("trustOptim", quietly = TRUE))  install.packages("trustOptim")
 library(trustOptim)
 
 ################### functions ###################
